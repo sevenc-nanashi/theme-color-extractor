@@ -1,0 +1,12 @@
+[package]
+name = "theme-color-extractor"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+image = "0.25.1"
+palette = "0.7.6"
+wasm-bindgen = "0.2.92"
